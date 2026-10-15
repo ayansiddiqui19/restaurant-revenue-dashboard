@@ -1,4 +1,3 @@
-
 import pandas as pd
 import joblib
 import streamlit as st
@@ -34,7 +33,7 @@ st.markdown("""
 # -----------------------------
 # 3. Load dataset and model
 # -----------------------------
-DATASET_FILE = "DATASET_FILE = "revenue_prediction.csv""
+DATASET_FILE = "DATASET_FILE = "revenue_prediction.csv"
 MODEL_FILE = "restaurant_revenue_model.pkl"
 
 df = pd.read_csv(DATASET_FILE)
