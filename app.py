@@ -34,7 +34,7 @@ st.markdown("""
 # -----------------------------
 # 3. Load dataset and model
 # -----------------------------
-DATASET_FILE = r"C:\Users\Ayan\Desktop\Restaurant_Revenue_Dashboard\revenue_prediction.csv"
+DATASET_FILE = "DATASET_FILE = "revenue_prediction.csv""
 MODEL_FILE = "restaurant_revenue_model.pkl"
 
 df = pd.read_csv(DATASET_FILE)
